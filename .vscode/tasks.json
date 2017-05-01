@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName": "build-ps1",
+            "command": "powershell",
+            "args": [
+                "\"${workspaceRoot}/build.ps1\""
+            ],
+            "isShellCommand": true,
+            "problemMatcher": "$msCompile",
+            "isBuildCommand": true
+        }
+    ]
+}

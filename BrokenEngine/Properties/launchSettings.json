@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "BrokenEngineCustom": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Projects\\BrokenEngine\\build\\BrokenEngine.exe",
+      "commandLineArgs": "arg1 -data net some more -arg5",
+      "workingDirectory": "E:\\Projects\\BrokenEngine\\build"
+    },
+    "BrokenEngine": {
+      "commandName": "Project"
+    }
+  }
+}
