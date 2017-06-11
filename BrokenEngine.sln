@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenEngine", "BrokenEngine\BrokenEngine.csproj", "{203257FD-D450-4F85-8817-88D9D264CE1A}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenEngine.Loggin", "BrokenEngine.Loggin\BrokenEngine.Loggin.csproj", "{5C81977E-2534-41C0-9D04-0EA15A61B194}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenEngine.Storage", "BrokenEngine.Storage\BrokenEngine.Storage.csproj", "{BE33194B-8315-48B7-AE6B-D4A0D0FB34BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenEngine.BassAudioPlayer", "BrokenEngine.BassAudioPlayer\BrokenEngine.BassAudioPlayer.csproj", "{9752C6CE-736B-45AF-8C26-C97B2B5018BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +60,12 @@ Global
 		{BE33194B-8315-48B7-AE6B-D4A0D0FB34BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE33194B-8315-48B7-AE6B-D4A0D0FB34BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE33194B-8315-48B7-AE6B-D4A0D0FB34BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9752C6CE-736B-45AF-8C26-C97B2B5018BC}.Custom|Any CPU.ActiveCfg = Debug|Any CPU
+		{9752C6CE-736B-45AF-8C26-C97B2B5018BC}.Custom|Any CPU.Build.0 = Debug|Any CPU
+		{9752C6CE-736B-45AF-8C26-C97B2B5018BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9752C6CE-736B-45AF-8C26-C97B2B5018BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9752C6CE-736B-45AF-8C26-C97B2B5018BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9752C6CE-736B-45AF-8C26-C97B2B5018BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

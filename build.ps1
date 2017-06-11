@@ -34,7 +34,7 @@ function runApp () {
 
 #Change location to project root
 function goToRoot () {
-    Set-Location "E:\Projects\BrokenEngine\"
+    Set-Location "D:\Projects\BrokenEngine\"
 }
 
 function init ($runtime) {
@@ -59,6 +59,10 @@ function init ($runtime) {
 
     #Plugin ILogging
     createPlugin "BrokenEngine.Loggin/BrokenEngine.Loggin.csproj" "DeafaultLogginPlugin" "BrokenEngine.Loggin.dll"
+
+    #Plugin BassAudioPlayer
+    createPlugin "BrokenEngine.BassAudioPlayer/BrokenEngine.BassAudioPlayer.csproj" "BassAudioPlayer" "BrokenEngine.BassAudioPlayer.dll"
+    Copy-Item -Path "BrokenEngine.BassAudioPlayer/DEPENDENCIES/*" -Destination "build" -Recurse
 
     #Clear-Host
 
